@@ -8,12 +8,12 @@ router.get('/', function(req, res, next) {
 });
 
 var config = {
-    apiKey: "AIzaSyAEQU52QpJAg36VjnUVVLmIV7l70taXhTM",
-    authDomain: "polarship-000.firebaseapp.com",
-    databaseURL: "https://polarship-000.firebaseio.com",
-    projectId: "polarship-000",
-    storageBucket: "polarship-000.appspot.com",
-    messagingSenderId: "1069408421511"
+    apiKey: "",
+    authDomain: "",
+    databaseURL: "",
+    projectId: "",
+    storageBucket: "",
+    messagingSenderId: ""
 };
 firebase.initializeApp(config);
 
